@@ -32,13 +32,13 @@ public class Main {
 
         //Apartado 6 Realizar 4 copias del array con diferentes metodos
         System.out.println("Con clone: ");
-        System.out.println(usandoClone(a));
+        System.out.println(Arrays.toString(usandoClone(a)));
         System.out.println("Con Arrays.copyOf: ");
-        System.out.println(usandoCopyOf(a));
+        System.out.println(Arrays.toString(usandoCopyOf(a)));
         System.out.println("Con Arrays.copyOfRange: ");
-        System.out.println(usandoCopyRange(a));
+        System.out.println(Arrays.toString(usandoCopyRange(a)));
         System.out.println("Con System.arraycopy: ");
-        System.out.println(usandoSystemCopy(a));
+        System.out.println(Arrays.toString(usandoSystemCopy(a)));
 
 
 
